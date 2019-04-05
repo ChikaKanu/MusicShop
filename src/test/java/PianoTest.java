@@ -31,4 +31,10 @@ public class PianoTest {
         assertEquals(1200, piano.getSellingPrice(), 0);
     }
 
+    @Test
+    public void canSetCheckInStock() {
+        piano.setInStock(false);
+        assertEquals(false, piano.isInStock());
+    }
+
 }
