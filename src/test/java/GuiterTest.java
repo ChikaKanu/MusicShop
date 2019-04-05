@@ -20,5 +20,11 @@ public class GuiterTest {
         assertEquals("GermoGuiter", guiter.getName());
     }
 
+    @Test
+    public void canAddGetPurchasePrice() {
+        guiter.setPurchasePrice(90);
+        assertEquals(90, guiter.getPurchasePrice(), 0);
+    }
+
 
 }
