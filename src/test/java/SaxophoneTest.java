@@ -38,4 +38,10 @@ public class SaxophoneTest {
         assertEquals(false, saxophone.isInStock());
     }
 
+    @Test
+    public void canSetGetColour() {
+        saxophone.setColour("black");
+        assertEquals("black", saxophone.getColour());
+    }
+
 }
