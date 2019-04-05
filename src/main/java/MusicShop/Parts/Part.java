@@ -6,8 +6,8 @@ public class Part extends ShopItem {
 
     private String material;
 
-    public Part(String name, double purchasePrice, double sellingPrice, boolean inStock, String material) {
-        super(name, purchasePrice, sellingPrice, inStock);
+    public Part(String manufacturer, double purchasePrice, double sellingPrice, boolean inStock, String material) {
+        super(manufacturer, purchasePrice, sellingPrice, inStock);
         this.material = material;
     }
 
