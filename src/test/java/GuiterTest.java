@@ -26,5 +26,10 @@ public class GuiterTest {
         assertEquals(90, guiter.getPurchasePrice(), 0);
     }
 
+    @Test
+    public void canAddGetSellingPrice() {
+        guiter.setSellingPrice(110);
+        assertEquals(110, guiter.getSellingPrice(), 0);
+    }
 
 }
