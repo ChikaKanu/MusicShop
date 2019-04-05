@@ -50,7 +50,10 @@ public class GuiterTest {
         assertEquals(5, guiter.getNoOfStrings());
     }
 
-
-
+    @Test
+    public void canAddGetGuiterType() {
+        guiter.setGuiterType(GuiterType.ELECTRIC);
+        assertEquals(GuiterType.ELECTRIC, guiter.getGuiterType());
+    }
 
 }
