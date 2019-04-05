@@ -32,4 +32,10 @@ public class SaxophoneTest {
         assertEquals(800, saxophone.getSellingPrice(), 0);
     }
 
+    @Test
+    public void canSetCheckInStock() {
+        saxophone.setInStock(false);
+        assertEquals(false, saxophone.isInStock());
+    }
+
 }
