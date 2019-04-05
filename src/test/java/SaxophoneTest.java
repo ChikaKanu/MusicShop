@@ -56,5 +56,10 @@ public class SaxophoneTest {
         assertEquals("Non-Ribbed", saxophone.getConstruction());
     }
 
+    @Test
+    public void canAddGetSaxophoneType() {
+        saxophone.setSaxophoneType(SaxophoneType.SOPRANO);
+        assertEquals(SaxophoneType.SOPRANO, saxophone.getSaxophoneType());
+    }
 
 }

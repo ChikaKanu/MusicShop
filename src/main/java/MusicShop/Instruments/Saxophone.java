@@ -30,4 +30,12 @@ public class Saxophone extends Instrument {
     public void setConstruction(String construction) {
         this.construction = construction;
     }
+
+    public SaxophoneType getSaxophoneType() {
+        return saxophoneType;
+    }
+
+    public void setSaxophoneType(SaxophoneType saxophoneType) {
+        this.saxophoneType = saxophoneType;
+    }
 }
