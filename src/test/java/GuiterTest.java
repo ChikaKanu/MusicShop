@@ -32,4 +32,10 @@ public class GuiterTest {
         assertEquals(110, guiter.getSellingPrice(), 0);
     }
 
+    @Test
+    public void canSetGetInStock() {
+        guiter.setInStock(false);
+        assertEquals(false, guiter.isInStock());
+    }
+
 }
