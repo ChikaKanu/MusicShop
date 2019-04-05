@@ -49,7 +49,6 @@ public class PianoTest {
         assertEquals(700, piano.getNoOfKeys());
     }
 
-
     @Test
     public void canAddGetPianoType() {
         piano.setType("Semi-weighted Synth");
