@@ -36,5 +36,18 @@ public class GuiterStringTest {
         assertEquals(false, guiterString.isInStock());
     }
 
+    @Test
+    public void canAddGetMaterial() {
+        guiterString.setMaterial("Thermoplastic");
+        assertEquals("Thermoplastic", guiterString.getMaterial());
+    }
+
+    @Test
+    public void canAddGetLength() {
+        guiterString.setTensileStrength(28);
+        assertEquals(28, guiterString.getTensileStrength(), 0);
+    }
+
+
 
 }
