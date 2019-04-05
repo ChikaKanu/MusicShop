@@ -50,4 +50,9 @@ public class PianoTest {
     }
 
 
+    @Test
+    public void canAddGetPianoType() {
+        piano.setType("Semi-weighted Synth");
+        assertEquals("Semi-weighted Synth", piano.getType());
+    }
 }
