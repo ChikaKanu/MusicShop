@@ -108,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PianoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="33" selection-start-line="33" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="128">
+              <caret line="45" selection-start-line="45" selection-end-line="49" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#152#153#0" expanded="true" />
@@ -122,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SaxophoneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="210">
+              <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -296,7 +296,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554489595801" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554489714125" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -362,12 +362,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PianoTest - 2019.04.05 at 17h 37m 06s.xml">
-      <configuration name="PianoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PianoTest - 2019.04.05 at 17h 38m 12s.xml">
-      <configuration name="PianoTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PianoTest - 2019.04.05 at 17h 40m 27s.xml">
       <configuration name="PianoTest" configurationId="JUnit" />
     </history-entry>
@@ -390,6 +384,12 @@
       <configuration name="SaxophoneTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SaxophoneTest - 2019.04.05 at 19h 38m 30s.xml">
+      <configuration name="SaxophoneTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SaxophoneTest - 2019.04.05 at 19h 39m 57s.xml">
+      <configuration name="SaxophoneTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SaxophoneTest - 2019.04.05 at 19h 41m 56s.xml">
       <configuration name="SaxophoneTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -618,8 +618,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PianoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="33" selection-start-line="33" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="128">
+          <caret line="45" selection-start-line="45" selection-end-line="49" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#152#153#0" expanded="true" />
@@ -630,8 +630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SaxophoneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="210">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

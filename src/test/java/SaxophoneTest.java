@@ -44,4 +44,10 @@ public class SaxophoneTest {
         assertEquals("black", saxophone.getColour());
     }
 
+    @Test
+    public void canAddGetmaterial() {
+        saxophone.setMaterial("Silver");
+        assertEquals("Silver", saxophone.getMaterial());
+    }
+
 }
