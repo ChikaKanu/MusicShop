@@ -45,9 +45,16 @@ public class SaxophoneTest {
     }
 
     @Test
-    public void canAddGetmaterial() {
+    public void canAddGetMaterial() {
         saxophone.setMaterial("Silver");
         assertEquals("Silver", saxophone.getMaterial());
     }
+
+    @Test
+    public void canAddGetConstruction() {
+        saxophone.setConstruction("Non-Ribbed");
+        assertEquals("Non-Ribbed", saxophone.getConstruction());
+    }
+
 
 }
