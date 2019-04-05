@@ -37,4 +37,17 @@ public class PianoTest {
         assertEquals(false, piano.isInStock());
     }
 
+    @Test
+    public void canSetGetColour() {
+        piano.setColour("black");
+        assertEquals("black", piano.getColour());
+    }
+
+    @Test
+    public void canAddGetNoOfKeys() {
+        piano.setNoOfKeys(700);
+        assertEquals(700, piano.getNoOfKeys());
+    }
+
+
 }
