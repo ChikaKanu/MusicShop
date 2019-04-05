@@ -4,23 +4,23 @@ import MusicShop.Interfaces.ISell;
 
 public abstract class ShopItem implements ISell {
 
-    String name;
+    String manufacturer;
     double purchasePrice;
     double sellingPrice;
     boolean inStock;
 
-    public ShopItem(String name, double purchasePrice, double sellingPrice, boolean inStock) {
-        this.name = name;
+    public ShopItem(String namufacturer, double purchasePrice, double sellingPrice, boolean inStock) {
+        this.manufacturer = manufacturer;
         this.purchasePrice = purchasePrice;
         this.sellingPrice = sellingPrice;
         this.inStock = inStock;
     }
-    public String getName() {
-        return name;
+    public String getManufacturer() {
+        return this.manufacturer;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setManufacturer(String manufacturer) {
+        this.manufacturer= manufacturer;
     }
 
     public double getPurchasePrice() {

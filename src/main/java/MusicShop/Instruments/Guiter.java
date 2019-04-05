@@ -7,8 +7,8 @@ public class Guiter extends Instrument{
     int noOfStrings;
     GuiterType guiterType;
 
-    public Guiter(String name, double purchasePrice, double sellingPrice, boolean inStock, String colour, int noOfStrings, GuiterType guiterType) {
-        super(name, purchasePrice, sellingPrice, inStock, colour);
+    public Guiter(String manufacturer, double purchasePrice, double sellingPrice, boolean inStock, String colour, int noOfStrings, GuiterType guiterType) {
+        super(manufacturer, purchasePrice, sellingPrice, inStock, colour);
         this.noOfStrings = noOfStrings;
         this.guiterType = guiterType;
     }

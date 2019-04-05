@@ -11,13 +11,13 @@ public class GuiterTest {
 
     @Before
     public void before() {
-        guiter = new Guiter("Guiter", 100, 120, true, "wood", 4, GuiterType.ACCUSTIC);
+        guiter = new Guiter("Casio", 100, 120, true, "wood", 4, GuiterType.ACCUSTIC);
     }
 
     @Test
-    public void canSetGetName() {
-        guiter.setName("GermoGuiter");
-        assertEquals("GermoGuiter", guiter.getName());
+    public void canSetGetManufacturer() {
+        guiter.setManufacturer("GermoGuiter");
+        assertEquals("GermoGuiter", guiter.getManufacturer());
     }
 
     @Test
