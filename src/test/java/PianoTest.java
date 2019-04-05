@@ -14,6 +14,12 @@ public class PianoTest {
     }
 
     @Test
+    public void canSetGetManufacturer() {
+        piano.setManufacturer("Yamaha");
+        assertEquals("Yamaha", piano.getManufacturer());
+    }
+
+    @Test
     public void canAddGetPurchasePrice() {
         piano.setPurchasePrice(900);
         assertEquals(900, piano.getPurchasePrice(), 0);
