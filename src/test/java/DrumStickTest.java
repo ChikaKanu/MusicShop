@@ -50,5 +50,4 @@ public class DrumStickTest {
         assertEquals(5, drumStick.getLength(), 0);
     }
 
-
 }
