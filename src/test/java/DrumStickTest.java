@@ -38,7 +38,17 @@ public class DrumStickTest {
         assertEquals(false, drumStick.isInStock());
     }
 
+    @Test
+    public void canAddGetMaterial() {
+        drumStick.setMaterial("Thermoplastic");
+        assertEquals("Thermoplastic", drumStick.getMaterial());
+    }
 
+    @Test
+    public void canAddGetLength() {
+        drumStick.setLength(5);
+        assertEquals(5, drumStick.getLength(), 0);
+    }
 
 
 }
