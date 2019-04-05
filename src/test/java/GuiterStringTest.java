@@ -24,4 +24,17 @@ public class GuiterStringTest {
         assertEquals(50, guiterString.getPurchasePrice(), 0);
     }
 
+    @Test
+    public void canAddGetSellingPrice() {
+        guiterString.setSellingPrice(100);
+        assertEquals(100, guiterString.getSellingPrice(), 0);
+    }
+
+    @Test
+    public void canSetCheckInStock() {
+        guiterString.setInStock(false);
+        assertEquals(false, guiterString.isInStock());
+    }
+
+
 }
