@@ -26,5 +26,10 @@ public class SaxophoneTest {
         assertEquals(600, saxophone.getPurchasePrice(), 0);
     }
 
+    @Test
+    public void canAddGetSellingPrice() {
+       saxophone.setSellingPrice(800);
+        assertEquals(800, saxophone.getSellingPrice(), 0);
+    }
 
 }
