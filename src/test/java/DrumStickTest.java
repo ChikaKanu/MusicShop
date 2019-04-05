@@ -26,6 +26,19 @@ public class DrumStickTest {
         assertEquals(50, drumStick.getPurchasePrice(), 0);
     }
 
+    @Test
+    public void canAddGetSellingPrice() {
+        drumStick.setSellingPrice(1200);
+        assertEquals(1200, drumStick.getSellingPrice(), 0);
+    }
+
+    @Test
+    public void canSetCheckInStock() {
+        drumStick.setInStock(false);
+        assertEquals(false, drumStick.isInStock());
+    }
+
+
 
 
 }
