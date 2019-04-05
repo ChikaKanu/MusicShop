@@ -33,9 +33,24 @@ public class GuiterTest {
     }
 
     @Test
-    public void canSetGetInStock() {
+    public void canSetCheckInStock() {
         guiter.setInStock(false);
         assertEquals(false, guiter.isInStock());
     }
+
+    @Test
+    public void canSetGetColour() {
+        guiter.setColour("black");
+        assertEquals("black", guiter.getColour());
+    }
+
+    @Test
+    public void canAddGetNoOfStrings() {
+        guiter.setNoOfStrings(5);
+        assertEquals(5, guiter.getNoOfStrings());
+    }
+
+
+
 
 }
