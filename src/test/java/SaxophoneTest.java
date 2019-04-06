@@ -62,4 +62,10 @@ public class SaxophoneTest {
         assertEquals(SaxophoneType.SOPRANO, saxophone.getSaxophoneType());
     }
 
+
+    @Test
+    public void canPlaySound() {
+        assertEquals("Saxophone playing: brrrrllllllddddd", saxophone.playSound("brrrrllllllddddd"));
+    }
+
 }

@@ -29,4 +29,8 @@ public class Guiter extends Instrument{
         this.guiterType = guiterType;
     }
 
+    public String playSound(String sound) {
+        return "Guiter playing: " + sound;
+    }
+
 }

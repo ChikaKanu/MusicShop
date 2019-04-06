@@ -38,4 +38,9 @@ public class Saxophone extends Instrument {
     public void setSaxophoneType(SaxophoneType saxophoneType) {
         this.saxophoneType = saxophoneType;
     }
+
+    public String playSound(String sound) {
+        return "Saxophone playing: " + sound;
+    }
+
 }

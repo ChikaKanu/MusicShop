@@ -1,4 +1,6 @@
 package MusicShop.Interfaces;
 
-public interface IPlay {
+public interface IPlay{
+
+    String playSound(String sound);
 }

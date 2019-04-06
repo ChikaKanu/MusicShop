@@ -56,4 +56,9 @@ public class GuiterTest {
         assertEquals(GuiterType.ELECTRIC, guiter.getGuiterType());
     }
 
+    @Test
+    public void canPlaySound() {
+        assertEquals("Guiter playing: brrrrllllllddddd", guiter.playSound("brrrrllllllddddd"));
+    }
+
 }

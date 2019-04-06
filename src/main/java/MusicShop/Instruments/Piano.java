@@ -26,4 +26,9 @@ public class Piano extends Instrument {
     public void setType(String type) {
         this.type = type;
     }
+
+    public String playSound(String sound) {
+        return "Piano playing: " + sound;
+    }
+
 }
