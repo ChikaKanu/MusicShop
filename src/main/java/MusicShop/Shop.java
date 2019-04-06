@@ -3,6 +3,7 @@ package MusicShop;
 import MusicShop.Interfaces.ISell;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Shop {
 
@@ -16,16 +17,17 @@ public class Shop {
         this.stock.add(item);
     }
 
+    public ArrayList getStock() {
+        return this.stock;
+    }
+
     public void removeFirstItem() {
         this.stock.remove(0);
+        this.getStock();
     }
 
     public void removeItemFromStock(ISell item) {
-        for (ISell arrayItem : this.stock) {
-            if (arrayItem == item) {
-                this.stock.remove(arrayItem);
-            }
-        }
+        this.stock.remove(item);
     }
 
     public String playSound(String sound) {

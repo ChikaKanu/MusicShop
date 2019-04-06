@@ -13,6 +13,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class ShopTest {
 
@@ -55,7 +56,44 @@ public class ShopTest {
         assertEquals(5, stock.countStock());
     }
 
+    @Test
+    public void canRemoveItemFromStockByIndex() {
+        stock.addItemToStock(drumStick1);
+        stock.addItemToStock(piano1);
+        stock.addItemToStock(piano2);
+        stock.addItemToStock(guiter1);
+        stock.addItemToStock(saxophone1);
+        stock.removeFirstItem();
+        assertNotNull(stock);
+        assertEquals(4, stock.countStock());
 
+    }
 
+    @Test
+    public void canRemoveItemFromStockByObject() {
+        stock.addItemToStock(drumStick1);
+        stock.addItemToStock(piano1);
+        stock.addItemToStock(piano2);
+        stock.addItemToStock(guiter1);
+        stock.addItemToStock(saxophone1);
+        stock.removeItemFromStock(saxophone1);
+        assertEquals(4, stock.countStock());
+    }
+
+    @Test
+    public void canCalculateMarkup() {
+        stock.addItemToStock(drumStick1);
+        stock.addItemToStock(drumStick2);
+        stock.addItemToStock(drumStick3);
+        stock.addItemToStock(piano1);
+        stock.addItemToStock(piano2);
+        stock.addItemToStock(guiter1);
+        stock.addItemToStock(guiter2);
+        stock.addItemToStock(guiter3);
+        stock.addItemToStock(saxophone1);
+        stock.addItemToStock(guiterString1);
+        stock.addItemToStock(guiterString2);
+        assertEquals(1220, stock.calculateMarkup(),0);
+    }
 
 }
