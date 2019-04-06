@@ -91,7 +91,7 @@ public class ShopTest {
         stock.addItemToStock(saxophone1);
         stock.addItemToStock(guiterString1);
         stock.addItemToStock(guiterString2);
-        assertEquals(1220, stock.calculateMarkup(),0);
+        assertEquals(40, stock.calculateMarkup(),0);
     }
 
 }

@@ -35,11 +35,13 @@ public class Shop {
 
     public double calculateMarkup() {
         double totalMarkUp = 0;
+        double totalPurchasePrice = 0;
         for (ISell item : this.stock) {
             double markUp = item.getSellingPrice() - item.getPurchasePrice();
             totalMarkUp += markUp;
+            totalPurchasePrice += item.getPurchasePrice();
         }
-        return totalMarkUp;
+        return (totalMarkUp/totalPurchasePrice)*100;
     }
 
 }
