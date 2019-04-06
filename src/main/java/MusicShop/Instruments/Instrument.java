@@ -1,8 +1,9 @@
 package MusicShop.Instruments;
 
+import MusicShop.Interfaces.IPlay;
 import MusicShop.ShopItem;
 
-public class Instrument extends ShopItem {
+public abstract class Instrument extends ShopItem implements IPlay {
 
     private String colour;
 

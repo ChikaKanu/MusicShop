@@ -2,7 +2,7 @@ package MusicShop.Parts;
 
 import MusicShop.ShopItem;
 
-public class Part extends ShopItem {
+public abstract class Part extends ShopItem {
 
     private String material;
 
