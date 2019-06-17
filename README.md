@@ -23,10 +23,12 @@ Some ISell items will be musical instruments i.e. instruments can be both IPlay 
 Create a Shop class, which has a collection of ISell items, called stock. In your shop you should be able to:
 add items to stock.
 remove items from stock.
+
 Possible Extensions
 Using the calculateMarkup method for each item in stock, create a method which gives the total potential profit for the shop.
 Create and use an enum for instrument types e.g. keyboard, wind, brass etc
 Any other extensions you may wish to add.
+
 Remember
 Use TDD, with separate test files for each class.
 
